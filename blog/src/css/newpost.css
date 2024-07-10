@@ -1,0 +1,40 @@
+.new-post-img{
+    width: 90% ;
+    height: 200px ;
+    border-radius: 15px;
+    margin-right: 5px;
+}
+.new-post-heading{
+    margin-top: 10px;
+}
+.new-post-p{
+    font-size: 12px;
+    color:rgb(131, 131, 131) ;
+}
+
+.poster-name{
+    font-size: 13px;
+    font-weight: 600;
+}
+.poster-date{
+    font-size: 10px;
+    color:rgb(131, 131, 131);
+}
+
+.new-post-col{
+    margin-bottom: 35px;
+    background-color: white;
+    padding: 20px;
+}
+
+
+@media (max-width: 770px) {
+    .new-poster-row{
+        width:200px !important;
+  }
+}
+  @media (max-width: 570px) {
+    .new-poster-row{
+        width:160px !important;
+    }
+  }

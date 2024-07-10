@@ -1,0 +1,43 @@
+.input-row{
+    text-align: center;
+}
+
+.input-row input , .input-row select , .modal-body input{
+
+    border-radius: 5px;
+    border: 1px solid rgb(175, 175, 175);
+    padding: 10px;
+    width: 300px;
+    margin-bottom: 20px;
+}
+
+.featured-img-row{
+
+    text-align: center;
+}
+.input-row textarea{
+    width: 400px;
+    height: 120px;
+    margin-left: 100px;
+    padding: 5px;
+}
+
+@media (max-width:730px) {
+    
+    .input-row textarea{
+        width: 90%;
+        height: 120px;
+        margin-left: 0px;
+        margin-top: 10px;
+    }
+    
+}
+
+@media (max-width:500px) {
+    
+    .input-row input,.input-row select{
+
+        width: 250px;
+    }
+    
+}

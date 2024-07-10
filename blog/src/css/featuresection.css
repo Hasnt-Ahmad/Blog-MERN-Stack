@@ -1,0 +1,89 @@
+.card-text-body {
+    background-color: rgba(255, 255, 255, 0.663); /* 0.5 is the alpha value for 50% transparency */
+    color: black;
+    border-radius: 15px;
+    padding: 8px;
+}
+.card-text-body .card-title{
+    font-weight: bold !important;
+}
+.card-text-body .card-text{
+    color: rgb(74, 74, 74);
+}
+.text-white{
+    color: white;
+    border: none;
+}
+.carousel-indicators{
+    display: none;
+}
+
+@media (max-width: 800px) {
+    .card-img{
+    
+        height: 250px !important;
+    }
+    .card-text-body .card-title{
+        font-size: 15px;
+    }
+    .card-text-body .card-text{
+        font-size: 12px;
+    }
+  }
+ /* @media (max-width:770px) {
+    .card-text-body{
+        height: 90px !important;
+    }
+    .card-text-body .card-title{
+        font-size: 15px;
+    }
+    .card-text-body .card-text{
+        font-size: 11px !important;
+    }
+ 
+ } */
+ 
+ 
+  @media (max-width: 600px) {
+    .card-img{
+    
+        height: 200px !important;
+    }
+    .card-text-body .card-title{
+        font-size: 13px;
+    }
+    .card-text-body .card-text{
+        font-size: 9px;
+    }
+  }
+
+  @media (max-width:500px) {
+    .card-text-body{
+        height: 80px !important;
+    }
+    .card-text-body .card-title{
+        font-size: 13px;
+    }
+    .card-text-body .card-text{
+        font-size: 10px !important;
+    }
+ 
+ }
+
+  @media (max-width: 400px) {
+    .card-img{
+    
+        height: 160px !important;
+        width: 160px !important;
+    }
+    .card-text-body{
+        height: 75px !important;
+    }
+    .card-text-body .card-title{
+        font-size: 10px;
+    }
+    .card-text-body .card-text{
+        font-size: 6px;
+    }
+
+  }
